@@ -1,0 +1,81 @@
+@font-face{
+	src: url('font/helveticaneue.ttf');
+	font-family: Helvetica;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.main-content{
+	font-family: Helvetica;
+	width: 80%;
+	background-color:#F7F9FA;
+	margin-bottom: 500px;
+	margin: 0 auto;
+}
+article.tin-chinh{
+	margin-bottom: 50px;
+	font-family:'Rubik', sans-serif;
+}
+div.khoi-tin-phu{
+	width: 270px;
+	float: left;
+	margin-right: 16px;
+
+}
+div.khoi-tin-phu a:hover{
+	color:red;
+}
+article.tin-phu img{
+	width: 270px;
+	height: 180px;
+}
+article.tin-phu a{
+	text-decoration: none;
+	color: black;
+	font-family:arial;
+	font-weight: bold;
+}
+.main-content p{
+	text-indent: 20px;
+	margin-top: 10px; 
+}
+.hinh{
+	width: 100%;
+	height:200px;
+}
+.main-content h3{
+	color: white;
+	background-color:red;
+	width: 13%;
+	padding: 3px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.link-hinh{
+	display: block;
+	margin-bottom: 10px;
+}
+.link-new{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	font-family: arial;
+	font-weight: bold;
+}
+a.link-new:hover{
+	color: red;
+}
+article.tin-phu{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+div.tieu-de{
+	padding: 4px;
+	color:red;
+	font-weight: bold;
+	border-bottom: 3px solid red;
+}
+.video{
+	margin-top: 20px;
+}
